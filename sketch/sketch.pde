@@ -49,7 +49,7 @@ class Drop{
     void show(){
         float thick = map(z,0,20,1,3);
         strokeWeight(thick);
-        stroke(138,43,226);  //Color del Cuerpo
+        stroke(#2B678C);  //Color del Cuerpo
         line(x,y,x,y+len);//
     }
 }
