@@ -1,0 +1,14 @@
+html{
+    display: flex; /*Tipo de panatalla flez */
+    justify-content: center;/* Centra los elementos */
+}
+
+canvas{
+    margin: 0px 0px 100px 0px;
+    /* margin:
+    Arriba:0px
+    Derecha:0px
+    Abajo:100px
+    Izquierda:0px
+    */
+}
