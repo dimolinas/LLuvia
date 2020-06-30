@@ -16,11 +16,12 @@ canvas{
     */
 }
 
-#bar{
-    width: 500px;
+#rain{
+    width: 200px;
     height: 80px;
     display: flex;
-    margin-top:300px;
+    margin-top: 260px;
+    left: 0;
     justify-content: center;
     align-items: center;
     background-color: #2B678C;
@@ -28,7 +29,24 @@ canvas{
     z-index: 2;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     opacity: .9;
+}
 
+#rain{
+    color: white;
+}
+
+#bar{
+    width: 500px;
+    height: 80px;
+    display: flex;
+    margin-top:350px;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B678C;
+    position: absolute;
+    z-index: 2;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: .9;
     left: 0;
 }
 
